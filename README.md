@@ -76,11 +76,24 @@ A Python-based cybersecurity tool designed to parse standard web server access l
    ```bash
    python Gargantua.py -f "C:\xampp\apache\logs\access.log"
    ```
-
+<p align ="center">
+    <img src= "assets/cli_output.png"
+</p>
    *(Example for a Linux Server):*
    ```bash
    python Gargantua.py -f "/var/log/apache2/access.log"
    ```
+
+## HTML Output
+### Signature-Based Detection
+<p align = "center">
+    <img src = "assets/event_sig.png">
+</p>
+
+### Data Visualization
+<p align ="center">
+    <img src= "assets/charts.png"
+</p>
 
 ---
 
